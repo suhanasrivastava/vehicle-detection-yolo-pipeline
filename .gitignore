@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data (large files stay out of git; see data/README.md)
+data/raw/*
+data/frames/*
+data/processed/*
+!data/**/.gitkeep
+
+# Models and training outputs
+models/*
+!models/.gitkeep
+runs/
+*.pt
+*.onnx
+
+# Experiment tracking
+wandb/
+mlruns/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
